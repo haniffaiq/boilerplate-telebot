@@ -1,0 +1,55 @@
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ===== Environment =====
+.env
+.env.local
+.env.*.local
+
+# ===== Logs =====
+logs/
+*.log
+*.log.*
+log.txt
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ===== Build / Output =====
+dist/
+build/
+.tmp/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# ===== Docker =====
+docker-compose.override.yml
+*.pid
+*.seed
+*.pid.lock
+
+# ===== Misc =====
+# Avoid accidental commits of generated files
+image.txt
+*.bak
+*.old
+*.orig
+
+# ===== Testing / Reports =====
+/coverage
+/.nyc_output
+/jest-stare
+/junit.xml
+
+# ===== Local run artifacts =====
+run.sh
