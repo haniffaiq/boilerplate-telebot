@@ -10,7 +10,7 @@ const server = app.listen(ENV.PORT, () =>
 );
 
 // ==== START TELEGRAM BOT ====
-const bot = new Telegraf(ENV.BOT_TOKEN);
+const bot = new Telegraf(ENV.BOT_MAIN_TOKEN);
 
 bot.start(async (ctx) => {
   const chat = ctx.chat;
